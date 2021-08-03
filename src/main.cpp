@@ -22,8 +22,6 @@ void loop() {
 
   if ( switchstate == LOW ){
 
-    delay(2000);
-
     digitalWrite (3, HIGH);
     digitalWrite (4, LOW);
     digitalWrite (5, LOW);
